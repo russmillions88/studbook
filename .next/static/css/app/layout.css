@@ -1,0 +1,152 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./app/globals.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Public+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  --ink: #1C1B18;
+  --paper: #F7F4EE;
+  --paper-dim: #EFEAE0;
+  --pasture: #5A6B4D;
+  --leather: #8B6F47;
+  --brass: #C9A961;
+  --line: rgba(28, 27, 24, 0.14);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Public Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+h1, h2, h3 {
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  margin: 0;
+  line-height: 1.15;
+}
+
+a {
+  color: inherit;
+}
+
+.wrap {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background: var(--ink);
+  color: var(--paper);
+  border: none;
+  border-radius: 3px;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #34322c;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--line);
+}
+
+.btn-secondary:hover {
+  background: var(--paper-dim);
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+input, select, textarea {
+  padding: 11px 14px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  border-radius: 3px;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 15px;
+  color: var(--ink);
+  width: 100%;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: 2px solid var(--pasture);
+  outline-offset: 1px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.field {
+  margin-bottom: 18px;
+}
+
+.error-text {
+  color: #a3423c;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.success-text {
+  color: var(--pasture);
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+}
+
+nav.site-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.wordmark {
+  font-family: 'Fraunces', serif;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.wordmark span {
+  color: var(--leather);
+}
+
+nav.site-bar a {
+  text-decoration: none;
+  font-size: 15px;
+  margin-left: 24px;
+  opacity: 0.75;
+}
+
+nav.site-bar a:hover {
+  opacity: 1;
+}
+
